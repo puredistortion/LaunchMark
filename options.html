@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>FreshBookMark URL</title>
+	<title>LaunckMark URL</title>
 	<style>
 		html{background:#eee;}
 		body{width:920px;height:300px;background:white;border-radius:10px;-webkit-box-shadow:0 3px 10px grey;font:20px / 36px Arial, Helvetica, sans-serif;margin:20px auto;padding:20px;}
@@ -33,7 +33,7 @@
 	  var saved = localStorage["saved_url"];
 	  if (saved == undefined || saved == null || saved == '') {
 		var help = document.getElementById("help");
-		help.innerHTML = "<p>It appears you have not set up your Freshbooks URL yet. Please do so by typing it below.</p><p>You can always get back to this page by right clicking the app icon and choosing <strong>Options</strong></p>";
+		help.innerHTML = "<p>It appears you have not set up your Launchpad URL yet. Please do so by typing it below.</p><p>You can always get back to this page by right clicking the app icon and choosing <strong>Options</strong></p>";
 		return;
 	  }
 	  var text = document.getElementById("url");
@@ -44,7 +44,7 @@
 <div id="help">
 	<p>You can always get back to this page by right clicking the app icon and choosing <strong>Options</strong></p>
 </div>
-<label for="url">https://<input type="text" id="url" name="url" />.freshbooks.com</label>
+<label for="url">https://<input type="text" id="url" name="url" value="launchpad"/>.37signals.com</label>
 <button onclick="save_options()">Save</button>
 <div id="status"></div>
 </body>

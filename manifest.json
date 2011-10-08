@@ -1,7 +1,7 @@
 {
   "name": "FreshBookMark",
-  "description": "This app simply gives you quick access to your Freshbooks account.",
-  "version": "1.2",
+  "description": "This app simply gives you quick access to your 37Signals Launchpad.",
+  "version": "1.0",
   "app": {
     "launch": {
       "local_path": "main.html"
